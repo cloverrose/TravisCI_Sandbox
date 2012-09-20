@@ -9,6 +9,14 @@ def main():
     pass
 
 
+def sub(x, y):
+    """
+    >>> sub(1, 100)
+    100
+    """
+    return x + y
+
+
 def _test():
     import doctest
     doctest.testmod()
